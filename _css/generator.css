@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer{
+    height: 50px; /* .push must be the same height as .footer */
+}
+
+/* Generator Form */
+#form-container{
+	border: 1px solid; 
+	background-color: #F8F8F8; 
+	border-color: #e7e7e7; 
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+#ghostImage{
+	display: none;
+}
+#meme-form{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+/* Generator Preview */
+canvas {
+	display: inline;
+}
+#canvasContainer{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    width: 100%;
+    text-align:center;
+}
+input{
+	padding-bottom: 10px;
+}
+.input-group{
+	padding-bottom: 15px;
+}
+.dropdown{
+	margin-bottom: 15px;
+}
+#memeDownload{
+	color: black;
+	text-decoration: none;
+}
+@media screen and (max-width: 990px) { 
+	canvas {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 600px) { 
+	canvas {
+		width: 70%;
+	}
+}
+

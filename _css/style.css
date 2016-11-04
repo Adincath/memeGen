@@ -1,0 +1,147 @@
+h2{
+  margin-top: 0px;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#nav{
+}
+
+ /****** Welcome Page ******/
+.meme-thumbnail{
+  overflow: hidden;
+  width: 225px;
+}
+
+#welcome-feature{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  width: 334px;
+}
+/* Jumbotron */
+#jumbotron{
+  background-image: url('../_imgs/welcome-banner-bw.jpg');
+    background-position: center; 
+    background-repeat: no-repeat;
+  background-size: cover;
+    height: 375px; 
+}
+#jumbotron .jumbotron{
+  background-color: transparent;
+}
+#jumbotron .jumbotron p, #jumbotron .jumbotron h1{
+  color: black;
+}
+
+/****** About *******/
+.about-row:nth-child(1){
+  padding-bottom: 25px;
+
+}
+.about-row:nth-child(n+2){
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: thin #e7e7e7 ;
+  border-style: solid;
+}
+.about-image{
+  max-width: 350px;
+}
+.g-recaptcha{
+  padding-bottom: 15px;
+}
+form{
+  margin-bottom: 20px;
+}
+textarea {
+    resize: none;
+}
+.width-fix{
+  width: 100%;
+}
+
+
+/****** Generator ******/
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -0px; /* the bottom margin is the negative value of the footer's height */
+    margin-top: 70px;
+}
+.footer{
+    height: 0px; /* .push must be the same height as .footer */
+    margin: 0px;
+}
+
+/* Generator Form */
+#form-container{
+  border: 1px solid; 
+  background-color: #F8F8F8; 
+  border-color: #e7e7e7; 
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+#ghostImage{
+  display: none;
+}
+#meme-form{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+
+/* Generator Preview */
+canvas {
+  display: inline;
+}
+#canvasContainer{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 100%;
+    text-align:center;
+}
+input{
+  padding-bottom: 10px;
+}
+.input-group{
+  padding-bottom: 15px;
+}
+.dropdown{
+  margin-bottom: 15px;
+}
+#memeDownload{
+  color: black;
+  text-decoration: none;
+}
+.col-lg-3.col-sm-4.col-xs-6.thumbnail.hvr-border-fade{
+  border-radius: 0px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 990px) { 
+  canvas {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) { 
+  canvas {
+    width: 70%;
+  }
+}
+

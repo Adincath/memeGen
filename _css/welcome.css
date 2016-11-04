@@ -1,0 +1,36 @@
+p {
+    font-size: 18px;
+}
+
+.welcome-row:nth-child(3){
+  padding-bottom: 25px;
+}
+.welcome-row:nth-child(n+4){
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: thin #e7e7e7 ;
+  border-style: solid;
+}
+#welcome-feature{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 334px;
+}
+/* Jumbotron */
+#jumbotron{
+	background-image: url('../_imgs/welcome-banner-bw.jpg');
+    background-position: center; 
+    background-repeat: no-repeat;
+	background-size: cover;
+    height: 375px; 
+}
+#jumbotron .jumbotron{
+	background-color: transparent;
+}
+#jumbotron .jumbotron p, #jumbotron .jumbotron h1{
+	color: black;
+}

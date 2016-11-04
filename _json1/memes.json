@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Annoying Facebook Girl",
+        "file_name": "annoying-facebook-girl",
+        "width": "500",
+        "height": "500"
+    },
+    {
+		"name": "Burning House Girl",
+		"file_name": "burning-house-girl",
+        "width": "600",
+        "height": "450"
+    },
+    {
+    	"name": "Confused Jackie",
+    	"file_name": "dafuq",
+        "width": "250",
+        "height": "250"
+    },
+    {
+    	"name": "Joseph Ducreux",
+    	"file_name": "ducreux",
+        "width": "250",
+        "height": "250"
+    },
+    {
+    	"name": "Good Guy Greg",
+    	"file_name": "good-guy-greg",
+        "width": "250",
+        "height": "250"
+    },
+    {
+    	"name": "Scumbag Steve",
+    	"file_name": "scumbag-steve",
+        "width": "250",
+        "height": "250"
+    },
+    {
+    	"name": "Kermit the Frog",
+    	"file_name": "sipping-my-tea",
+        "width": "500",
+        "height": "500"
+    },
+    {
+    	"name": "Skeptical Fry",
+    	"file_name": "skeptical-fry",
+        "width": "250",
+        "height": "250"
+    },
+    {
+    	"name": "Shut Up and Take My Money",
+    	"file_name": "stmm-fry",
+        "width": "250",
+        "height": "250"
+    },
+    {
+    	"name": "We got a Bad Ass",
+    	"file_name": "watch-out",
+        "width": "250",
+        "height": "250"
+    },
+    {
+    	"name": "X All of the Y!",
+    	"file_name": "x-all-y",
+        "width": "250",
+        "height": "250"
+    },
+    {
+    	"name": "Yao Ming",
+    	"file_name": "yaoming",
+        "width": "250",
+        "height": "250"
+    }
+]
