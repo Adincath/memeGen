@@ -62,7 +62,7 @@ function uploadImage($memeName, $fileName){
 }
 
 function addMemeToDatabase($memeName, $fileName, $width, $height){
-    include "dbMeta.php";
+    include "config.php";
 
     //Attempting connection and query
     try{
